@@ -61,7 +61,7 @@ export const Timer = () => {
     };
 
     return (
-        <div className='flex flex-col text-white items-center justify-center w-100 h-100 rounded-lg bg-[#1e293b]' >
+        <div className='flex flex-col text-white items-center justify-center w-70 sm:w-100 h-100 rounded-lg bg-[#1e293b]' >
             {/* Progress Circle (Now it wraps TimeDisplay) */}
             <ProgressCircle time={time} initialTime={savedTime} >
                 <TimeDisplay
